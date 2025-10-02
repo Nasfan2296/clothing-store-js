@@ -1,0 +1,30 @@
+[
+  {
+    "id": "jfhgbvnscs",
+    "name": "Casual Shirt",
+    "price": 45,
+    "desc": "Comfortable casual shirt for daily wear.",
+    "img": "images/img-1.jpg"
+  },
+  {
+    "id": "ioytrhndcv",
+    "name": "Office Shirt",
+    "price": 100,
+    "desc": "Formal office shirt for professional look.",
+    "img": "images/img-2.jpg"
+  },
+  {
+    "id": "wuefbncxbsn",
+    "name": "T Shirt",
+    "price": 25,
+    "desc": "Lightweight t-shirt for casual style.",
+    "img": "images/img-3.jpg"
+  },
+  {
+    "id": "thyfhcbcv",
+    "name": "Mens Suit",
+    "price": 300,
+    "desc": "Elegant suit for special occasions.",
+    "img": "images/img-4.jpg"
+  }
+]
