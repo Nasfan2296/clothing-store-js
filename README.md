@@ -1,87 +1,73 @@
-👕 Clothing Store JS — E-Commerce Frontend Project
+# 👕 Clothing Store JS — E-Commerce Frontend Project
 
-Project Overview:
-A scalable, modular e-commerce clothing store built with HTML, CSS, and vanilla JavaScript. This project demonstrates end-to-end frontend architecture, including dynamic product listing, shopping cart management, and persistent state with localStorage. Designed with responsiveness, maintainability, and performance in mind.
+**Project Overview**  
+A scalable, modular e-commerce clothing store built with HTML, CSS, and vanilla JavaScript.  
+Demonstrates dynamic product listing, shopping cart management, and persistent state with `localStorage`.  
+Designed for **maintainability, responsiveness, and performance**.
 
-🚀 Key Features
+---
 
-Dynamic Product Listing:
-Products are fetched via a JSON API (products.json) and rendered dynamically, enabling easy updates and scalability.
+## 🚀 Key Features
 
-Shopping Cart Management:
-Users can add/remove items, increment/decrement quantities, and view real-time cart totals.
+- **Dynamic Product Listing**  
+  Products fetched via `products.json` and rendered dynamically for scalability.
 
-Persistent Cart State:
-Cart data persists across sessions using localStorage, enhancing user experience and reducing friction.
+- **Shopping Cart Management**  
+  Add/remove items, increment/decrement quantities, and view real-time cart totals.
 
-Responsive Design:
-Fully responsive for mobile and desktop, ensuring consistent user experience across devices.
+- **Persistent Cart State**  
+  Cart data saved in `localStorage` for seamless experience across sessions.
 
-Modular & Maintainable Architecture:
+- **Responsive Design**  
+  Optimized for mobile and desktop devices.
 
-api.js – handles all data fetching and API abstraction
+- **Modular Architecture**  
+  - `api.js` — data fetching  
+  - `main.js` — product listing & UI rendering  
+  - `cart.js` — cart logic & state management
 
-main.js – product listing and UI rendering
-
-cart.js – cart logic and state management
-This separation of concerns enables easy scaling for future features.
-
-Clear Cart & Total Calculation:
-Users can easily reset their cart, with dynamic updates to totals.
-
-📁 Folder Structure
+- **Clear Cart & Total Calculation**  
+  Dynamically updates totals and allows easy reset of cart.
 clothing-store-js/
-├─ index.html          # Main storefront
-├─ cart.html           # Shopping cart page
-├─ style.css           # Global styling
-├─ products.json       # Product data source
+├─ index.html # Main storefront
+├─ cart.html # Shopping cart page
+├─ style.css # Global styles
+├─ products.json # Product data source
 └─ src/
-   ├─ api.js           # Handles data fetching
-   ├─ main.js          # Product listing & UI rendering
-   └─ cart.js          # Cart management logic
+├─ api.js # Handles data fetching
+├─ main.js # Product listing & UI rendering
+└─ cart.js # Cart management logic
 
-🛠 Technologies Used
+## 🛠 Technologies Used
 
-HTML5 & CSS3 – Semantic markup and responsive design
+- HTML5 & CSS3  
+- Vanilla JavaScript (ES6+)  
+- Fetch API for dynamic product data  
+- LocalStorage for cart persistence
 
-Vanilla JavaScript (ES6+) – Modular architecture & dynamic UI
+**Clone the repository:**  
+   
+   
+1.Open project in VS Code (or any editor).
 
-Fetch API – Efficient data retrieval from JSON API
+2.Start a Live Server on index.html:
 
-LocalStorage – Persistent cart state for improved UX
+3.Right-click index.html → Open with Live Server
+Required to fetch products.json locally.
 
-📌 How to Run
+4.Test Features:
 
-Clone the repository:
+      Browse products
 
-git clone <repository-url>
+      Add/remove items in the cart
 
+      Increment/decrement quantities
 
-Open the project in VS Code (or preferred editor).
+      Clear cart
 
-Start a Live Server on index.html:
+      Observe persistent cart state across reloads
 
-Right-click index.html → Open with Live Server
-Necessary for fetching products.json locally.
+---
 
-Explore Features:
+## 📁 Folder Structure
 
-Browse products
-
-Add items to cart
-
-Increment/decrement quantities
-
-Clear cart
-
-Observe persistent cart state across page reloads
-
-⚡ Project Highlights
-
-Scalable Design: Easily add new products or features without rewriting core logic.
-
-Modular Codebase: Encourages maintainability and teamwork collaboration.
-
-User-Centric Features: Cart persistence and responsive design ensure seamless shopping experience.
-
-Hands-On Frontend Engineering: Demonstrates understanding of state management, dynamic DOM rendering, and API integration without frameworks.
